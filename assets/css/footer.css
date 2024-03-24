@@ -7,10 +7,13 @@ hr{
     margin: 0;
     border: 1px solid var(--cinza);
 }
+.lista__rodape{
+    display: none;
+}
 @media screen and (min-width: 1024px) {
     .rodape{
         display: flex;
-        justify-content: space-between;   
+        justify-content: space-around;   
         height: auto;
         padding: 2em 2em;
     }
@@ -19,7 +22,7 @@ hr{
     }
     .lista__rodape__titulo{
         font-size: 14px;
-        color: var(--cinza);
+        color: var(--cinzaForte);
     }
     .lista__rodape{
         display: flex;
@@ -28,7 +31,6 @@ hr{
     }
     .lista__rodape__item{
         display: flex;
-        justify-self: center;
         align-items: center;
         gap: 8px;
     }
