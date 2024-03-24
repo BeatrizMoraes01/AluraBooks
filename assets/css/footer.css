@@ -1,0 +1,9 @@
+.rodape{
+    height: 65px;
+    background-color: var(--branco);
+    padding: 1em 0 0 1em;
+}
+hr{
+    margin: 0;
+    border: 1px solid var(--cinza);
+}

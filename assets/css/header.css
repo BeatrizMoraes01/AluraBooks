@@ -1,0 +1,53 @@
+.cabecalho__menu__hamburguer{
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;/*permite adicionar maegens*/
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.container__imagem{
+    padding: 1em;
+}
+.lista__menu{
+    display: none;
+    position: absolute;/*permite movimentar de acordo com elemento pai diferente de static*/
+    top: 100%;
+    width: 60vw;
+}
+.container__botao:checked ~ .lista__menu{/*quando o checkbox esta ativo chama a lista__menu*/
+    display: block;
+    
+}
+
+.lista__menu__titulo, .lista__menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista__menu__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+.lista__menu__link{
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.container__botao{
+    display: none;
+}
+
+
+
