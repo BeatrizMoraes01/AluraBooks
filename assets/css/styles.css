@@ -13,7 +13,8 @@
     --azulForte: #002F52;
     --preto: #000000D9;
     --cinza: #858585;
-    --fontPrincipal: "Poppins"
+    --fontPrincipal: "Poppins";
+    --fontSecundaria: "Josefin Sans";
 }
 body{
     background-color: var(--corDeFundo);
