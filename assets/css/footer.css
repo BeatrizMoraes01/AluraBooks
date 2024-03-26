@@ -39,3 +39,12 @@ hr{
         color: var(--cinzaForte);
     }
 }
+@media screen and (min-width: 1728px){
+    .lista__rodape{
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+    .rodape{
+        padding: 3em 0;
+    }
+}
